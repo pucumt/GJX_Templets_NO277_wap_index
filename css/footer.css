@@ -1,0 +1,119 @@
+/* 公用底部 */
+.footer-container{
+	margin-top: 0.266667rem;
+	background: #fff
+}
+.footer-menu{
+	width: 200%;
+	padding-top: 1.12rem;
+	margin-bottom: -1.8rem;
+	text-align: center;
+	font-size: 0;
+	-webkit-transform: scale(.5);
+	transform: scale(.5);
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+}
+.footer-menu>li{
+	display: inline-block;
+	padding: 0 0.8rem;
+}
+.footer-menu .item{
+	display: block;
+	text-align: center;
+	font-size: 0
+}
+.footer-menu .item .icon{
+	display: inline-block;
+	width: 2.4rem;
+	height: 2.4rem;
+	background: #ddd
+}
+.footer-menu .item .m-contact{
+	background: url(../images/contact-us-icon.png) center no-repeat;
+	background-size: contain;
+}
+.footer-menu .item .m-help{
+	background: url(../images/help-icon.png) center no-repeat;
+	background-size: contain;
+}
+.footer-menu .item .m-order{
+	background: url(../images/order-icon.png) center no-repeat;
+	background-size: contain;
+}
+.footer-menu .item .m-about{
+	background: url(../images/about-us-icon.png) center no-repeat;
+	background-size: contain;
+}
+.footer-menu .item .name{
+	display: block;
+	color: #999;
+	margin-top: 0.32rem;
+	font-size: 0.533333rem;
+}
+
+.footer-log-reg{
+	width: 200%;
+	text-align: center;
+	font-size: 0;
+	-webkit-transform: scale(.5);
+	transform: scale(.5);
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+}
+.footer-log-reg .item{
+	color: #999;
+	display: inline-block;
+	position: relative;
+	padding: 0 0.4rem;
+	font-size: 0.533333rem
+}
+.footer-log-reg .item:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0.04rem;
+	bottom: 0.04rem;
+	border-right: 1px solid #999
+
+}
+.footer-log-reg .item:last-child:after{
+	display: none
+}
+
+.footer-edit{
+	color: #999;
+	width: 200%;
+	text-align: center;
+	font-size: 0.48rem;
+	-webkit-transform: scale(.5);
+	transform: scale(.5);
+	-webkit-transform-origin: left top;
+	transform-origin: left top;
+}
+
+/* 联系我们 */
+.call-telephone{
+	width: 1.2rem;
+	height: 1.2rem;
+	position: fixed;
+	left: 0.4rem;
+	bottom: 0.6rem;
+	z-index: 10001;
+	background: url(../images/contact-fixed-icon.png) center no-repeat;
+	background-size: contain;
+}
+
+/* 返回顶部 */
+.back-top{
+	display: none;
+	width: 1.2rem;
+	height: 1.2rem;
+	position: fixed;
+	right: 0.4rem;
+	bottom: 0.6rem;
+	z-index: 10001;
+	background: url(../images/back-top-icon.png) center no-repeat;
+	background-size: contain;
+}
