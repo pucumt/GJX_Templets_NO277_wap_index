@@ -83,7 +83,7 @@
 			</div>
 		</div>
 		<!--广告模块 -->
-
+<!-- 
 		<div class="destination-module">
 			<div class="destination-bar"><span class="bar-tit">推荐目的地</span></div>
 			<div class="destination-wrap">
@@ -102,7 +102,7 @@
 					<a class="module-more-link" href="{$cmsurl}destination/">目的地大全</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- 目的地模块 -->
 
 		<!--<div class="ad-module-bar">
@@ -155,7 +155,7 @@
                 {st:channel action="getchannel" row="3"}
 				{php}$k=0;{/php}
                 {loop $data $da}				
-				{if in_array($da['m_typeid'],array(1,2,3,5,13,104,114,105,8))}					
+				{if in_array($da['m_typeid'],array(1))}
 					<span {if $k==0} class="item active"{else}  class="item" {/if}>
 						热门{$da['title']}				
 					</span>
